@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: white;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    .lft{
+        width: 70%;
+        height: 100%;
+        // background-color: #ff0000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column  ;
+
+        textarea{
+            border-radius: 20px;
+            padding: 11px 20px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid rgba(128, 128, 128, 0.502);
+        }
+
+        .btn{
+            width: 80%;
+            height: 10%;
+            // background-color: firebrick;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-evenly;
+
+            .lang{
+                width: 70%;
+                height: 80%;
+                // background-color: aquamarine;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                select {
+                    width: 90%;
+                    height: 70%;
+                   background-color: transparent;
+                   color: wheat;
+                   border: 1px solid rgba(128, 128, 128, 0.502);
+
+                   option{
+                    background-color: black;
+                   }
+                }
+            }
+            button{
+                width: 15%;
+                height: 75%;
+                background-color: rgb(20, 43, 71);
+                cursor: pointer;
+                color: white;
+                font-size: 15px;
+                border-radius: 30px;
+                border: none;
+                
+            }
+            button:active{
+                scale: 0.9;
+            }
+        }
+    }
+    .rgt{
+        width: 20%;
+        height: 100%;
+        // background-color: #56e907;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .a{
+            height: 30vw;
+        }
+    }
+}
+
+

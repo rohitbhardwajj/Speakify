@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  color: white;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.main .lft {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main .lft textarea {
+  border-radius: 20px;
+  padding: 11px 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(128, 128, 128, 0.502);
+}
+.main .lft .btn {
+  width: 80%;
+  height: 10%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .lft .btn .lang {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .lft .btn .lang select {
+  width: 90%;
+  height: 70%;
+  background-color: transparent;
+  color: wheat;
+  border: 1px solid rgba(128, 128, 128, 0.502);
+}
+.main .lft .btn .lang select option {
+  background-color: black;
+}
+.main .lft .btn button {
+  width: 15%;
+  height: 75%;
+  background-color: rgb(20, 43, 71);
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+}
+.main .lft .btn button:active {
+  scale: 0.9;
+}
+.main .rgt {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .rgt .a {
+  height: 30vw;
+}/*# sourceMappingURL=style.css.map */

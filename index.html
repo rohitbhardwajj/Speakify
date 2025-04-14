@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="lft">
+        <textarea cols="90" rows="25" name="" id="textarea"></textarea>
+        <div class="btn">
+          <div class="lang">
+            <select name="payment-method" id="select">
+              <!-- Voices will be populated here -->
+            </select>
+          </div>
+          <button>Convert</button>
+        </div>
+      </div>
+      <div class="rgt">
+        <script
+          class="a"
+          type="module"
+          src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"
+        ></script>
+        <spline-viewer
+          url="https://prod.spline.design/0f4jMUZYg3BLbwuI/scene.splinecode"
+        ></spline-viewer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
