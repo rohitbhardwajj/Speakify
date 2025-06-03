@@ -78,8 +78,8 @@ html, body {
   line-height: 1.5;
   margin-top: 60px;
   overflow-y: auto; /* allow scroll only if content exceeds */
-  min-height: 400px; /* enough height to avoid scroll */
-  max-height: 500px; /* max height so it doesn’t grow endlessly */
+  min-height: 200px; /* enough height to avoid scroll */
+  max-height: 400px; /* max height so it doesn’t grow endlessly */
 }
 
 .lft textarea:focus {
@@ -176,8 +176,8 @@ html, body {
   }
   
   .lft textarea {
-    min-height: 300px;
-    max-height: none; /* let it grow */
+    min-height: 250px;
+    max-height: 250px; /* let it grow */
     margin-top: 50px;
   }
   
