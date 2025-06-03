@@ -178,7 +178,7 @@ html, body {
   .lft textarea {
     min-height: 250px;
     max-height: 250px; /* let it grow */
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   .btn {
@@ -199,7 +199,9 @@ html, body {
   }
   .head{
   /* background-color: red; */
-  justify-content: flex-start;
-  margin-left: 20px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;;
+  /* margin-left: 50px; */
 }
 }
