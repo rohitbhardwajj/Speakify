@@ -19,7 +19,7 @@ html, body {
 .head{
   /* background-color: red; */
   width: 80%;
-  height: 20%;
+  height: 10%;
   position: absolute;
   top: 0%;
   left: 0%;
@@ -29,7 +29,7 @@ html, body {
 }
 .head h3{
     font-size: clamp(35px,3vw,60px);
-    margin-top: 30px;
+    margin-top: 10px;
     background: linear-gradient(pink ,blue);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -178,7 +178,7 @@ html, body {
   .lft textarea {
     min-height: 300px;
     max-height: none; /* let it grow */
-    margin-top: 90px;
+    margin-top: 50px;
   }
   
   .btn {
@@ -197,4 +197,9 @@ html, body {
     font-size: 1.2rem;
     padding: 16px 20px;
   }
+  .head{
+  /* background-color: red; */
+  justify-content: flex-start;
+  margin-left: 20px;
+}
 }
