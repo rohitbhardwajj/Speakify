@@ -26,15 +26,21 @@ html, body {
   top: 0%;
   left: 0%;
   display: flex;
+  flex-direction: column;
  /* align-items: center; */
   justify-content: center;
+  align-items: center;
 }
 .head h3{
     font-size: clamp(35px,3vw,60px);
-    margin-top: 10px;
+    margin-top: 6px;
     background: linear-gradient(pink ,blue);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.head h6{
+  color: rgba(255, 0, 0, 0.365);
+  
 }
 
 /* Container */
