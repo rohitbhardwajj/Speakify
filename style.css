@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 
 html, body {
@@ -32,8 +32,8 @@ html, body {
   align-items: center;
 }
 .head h3{
-    font-size: clamp(35px,3vw,60px);
-    margin-top: 6px;
+    font-size: clamp(55px,4vw,60px);
+    margin-top: 25px;
     background: linear-gradient(pink ,blue);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
