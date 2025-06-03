@@ -28,9 +28,8 @@ html, body {
 .main .lft textarea {
   border-radius: 20px;
   padding: 11px 20px;
-  background-color: transparent;
+  background-color: rgba(128, 128, 128, 0.313);
   color: white;
-  border: 1px solid rgba(128, 128, 128, 0.502);
 }
 .main .lft .btn {
   width: 80%;
@@ -51,6 +50,7 @@ html, body {
   height: 70%;
   background-color: transparent;
   color: wheat;
+  background-color: rgba(128, 128, 128, 0.313);
   border: 1px solid rgba(128, 128, 128, 0.502);
 }
 .main .lft .btn .lang select option {
