@@ -76,6 +76,7 @@ html, body {
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
+  margin-top: 60px;
   overflow-y: auto; /* allow scroll only if content exceeds */
   min-height: 400px; /* enough height to avoid scroll */
   max-height: 500px; /* max height so it doesn’t grow endlessly */
